@@ -118,13 +118,17 @@ Apply to .env
 mkdir exports
 
 # Running the System
+
 Basic Usage
 
-##1. Run the test script:
+## 1. Run the test script:
+
 Apply to .env
+
 python test_run.py
 
 This will:
+
 Initialize the lead generation system
 
 Search for leads in the specified industries and countries
@@ -134,13 +138,19 @@ Export the results to a CSV file
 Display a sample of the generated leads
 
 # Customizing the Search
+
 You can modify the search parameters in test_run.py:
+
 Apply to .env
+
 ### Define search parameters
+
 industries = ["Technology", "Healthcare", "Finance"]
+
 countries = ["United States", "United Kingdom", "Canada"]
 
 # Advanced Usage
+
 For more advanced usage, you can import and use the system directly in your own scripts:
 
 Apply to .env
@@ -148,16 +158,21 @@ Apply to .env
 from lead_generation_system import LeadGenerationSystem
 
 ### Initialize the system
+
 system = LeadGenerationSystem()
 
 ### Define your search parameters
+
 industries = ["AI/ML", "Biotech", "Renewable Energy"]
+
 countries = ["United States", "Germany", "Singapore"]
 
 ### Find leads
+
 leads = system.find_leads(industries, countries)
 
 ### Export results
+
 system.export_leads(leads)
 
 
@@ -192,32 +207,43 @@ Verify that you have sufficient disk space
 The system uses a multi-agent architecture with four specialized agents:
 
 ## 1. Research Agent: 
+
 Gathers company data from various sources
 
 ## 2. Analysis Agent: 
+
 Analyzes and scores companies
 
 ## 3. Contact Agent:
+
 Gathers and validates contact information
 
 ## 4. Coordinator Agent:
+
 Manages and ranks the leads
 
 The workflow follows these steps:
+
 ## 1. Research phase: 
+
 Gather raw company data
 
 ## 2 .Analysis phase: 
+
 Analyze and score companies
 
 ## 3. Contact enrichment: 
+
 Add validated contact information
 
 ## 4.Coordination: 
+
 Filter, rank, and categorize leads
 
 # Lead Scoring System
+
 Leads are scored based on weighted criteria:
+
 Company Size (30%)
 
 Market Position (20%)
@@ -227,6 +253,7 @@ Contact Information Completeness (20%)
 Growth Potential (30%)
 
 And categorized by quality:
+
 Hot: Score ≥ 0.8
 
 Warm: Score ≥ 0.6
