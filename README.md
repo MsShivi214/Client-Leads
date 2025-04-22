@@ -35,38 +35,55 @@ Glassdoor API key (optional but recommended)
 
 # Step-by-Step Setup Instructions
 ## 1. Set Up Your Environment
+
 Apply to .env
+
 ### Create a virtual environment
+
 python -m venv venv
 
 ### Activate the virtual environment
+
 ### On Windows:
+
 venv\Scripts\activate
 
 ### On Unix or MacOS:
+
 source venv/bin/activate
 
 ### Install required packages
+
 pip install -r requirements.txt
 
 ## 2. Configure API Keys
+
 Create a .env file in the root directory with your API keys:
+
 Apply to .env
+
 ### OpenAI API Key for AI-powered analysis
+
 OPENAI_API_KEY=your_openai_api_key_here
 
 ### LinkedIn API credentials (if using LinkedIn API)
+
 LINKEDIN_CLIENT_ID=your_linkedin_client_id
+
 LINKEDIN_CLIENT_SECRET=your_linkedin_client_secret
+
 LINKEDIN_ACCESS_TOKEN=your_linkedin_access_token
 
 # Crunchbase API key (if using Crunchbase API)
+
 CRUNCHBASE_API_KEY=your_crunchbase_api_key
 
 ### Glassdoor API key (if using Glassdoor API)
+
 GLASSDOOR_API_KEY=your_glassdoor_api_key
 
 ## 3. Directory Structure
+
 Ensure your project has the following structure:
 
 Apply to .env
