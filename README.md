@@ -67,8 +67,11 @@ GLASSDOOR_API_KEY=your_glassdoor_api_key
 
 # 3. Directory Structure
 Ensure your project has the following structure:
+
 Apply to .env
+
 multi-agent-lead-generation/
+
 ├── .env                    # Environment variables
 
 ├── requirements.txt        # Python dependencies
@@ -80,6 +83,7 @@ multi-agent-lead-generation/
 ├── test_run.py            # Test script
 
 └── agents/
+
     ├── __init__.py
     
     ├── research_agent.py
