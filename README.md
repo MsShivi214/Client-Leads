@@ -74,7 +74,7 @@ LINKEDIN_CLIENT_SECRET=your_linkedin_client_secret
 
 LINKEDIN_ACCESS_TOKEN=your_linkedin_access_token
 
-# Crunchbase API key (if using Crunchbase API)
+### Crunchbase API key (if using Crunchbase API)
 
 CRUNCHBASE_API_KEY=your_crunchbase_api_key
 
