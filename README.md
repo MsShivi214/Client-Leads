@@ -9,13 +9,13 @@ To run this multi-agent lead generation system properly, you'll need:
 Python 3.8 or higher
 Virtual environment (recommended)
 # 2.Required Dependencies:
-langchain==0.1.0
-openai==1.3.0
-python-dotenv==1.0.0
-pandas==2.1.0
-requests==2.31.0
-beautifulsoup4==4.12.2
-matplotlib (for visualization)
+a.langchain==0.1.0
+b. openai==1.3.0
+c. python-dotenv==1.0.0
+d. pandas==2.1.0
+e. requests==2.31.0
+f. beautifulsoup4==4.12.2
+g. matplotlib (for visualization)
 # 3.API Keys:
 OpenAI API key (required for AI analysis)
 LinkedIn API credentials (optional but recommended)
