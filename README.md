@@ -35,14 +35,16 @@ Glassdoor API key (optional but recommended)
 # Step-by-Step Setup Instructions
 # 1. Set Up Your Environment
 Apply to .env
-# Create a virtual environment
+Create a virtual environment
 python -m venv venv
 
-# Activate the virtual environment
+Activate the virtual environment
 # On Windows:
 venv\Scripts\activate
+
 # On Unix or MacOS:
 source venv/bin/activate
+
 # Install required packages
 pip install -r requirements.txt
 
