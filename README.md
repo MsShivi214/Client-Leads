@@ -121,12 +121,12 @@ Apply to .env
 industries = ["Technology", "Healthcare", "Finance"]
 countries = ["United States", "United Kingdom", "Canada"]
 
-#Advanced Usage
+# Advanced Usage
 For more advanced usage, you can import and use the system directly in your own scripts:
 Apply to .env
 from lead_generation_system import LeadGenerationSystem
 
-# Initialize the system
+## Initialize the system
 system = LeadGenerationSystem()
 
 # Define your search parameters
