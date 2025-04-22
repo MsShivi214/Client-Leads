@@ -70,15 +70,24 @@ Ensure your project has the following structure:
 Apply to .env
 multi-agent-lead-generation/
 ├── .env                    # Environment variables
+
 ├── requirements.txt        # Python dependencies
+
 ├── README.md              # Documentation
+
 ├── lead_generation_system.py  # Main system file
+
 ├── test_run.py            # Test script
+
 └── agents/
     ├── __init__.py
+    
     ├── research_agent.py
+    
     ├── analysis_agent.py
+    
     ├── contact_agent.py
+    
     └── coordinator_agent.py
 
 # 4. Create Required Directories
