@@ -10,16 +10,26 @@ Python 3.8 or higher
 Virtual environment (recommended)
 # 2.Required Dependencies:
 a.langchain==0.1.0
+
 b. openai==1.3.0
+
 c. python-dotenv==1.0.0
+
 d. pandas==2.1.0
+
 e. requests==2.31.0
+
 f. beautifulsoup4==4.12.2
+
 g. matplotlib (for visualization)
+
 # 3.API Keys:
 OpenAI API key (required for AI analysis)
+
 LinkedIn API credentials (optional but recommended)
+
 Crunchbase API key (optional but recommended)
+
 Glassdoor API key (optional but recommended)
 
 # Step-by-Step Setup Instructions
